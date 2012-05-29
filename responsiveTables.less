@@ -1,0 +1,43 @@
+table.tiny-tables{
+    td, th {
+        position: relative; white-space: nowrap; overflow: hidden;
+    }
+}
+
+.tiny-tables-wrap  {
+    position: relative; margin-bottom: 20px; overflow: hidden;
+    div.tiny-tables-scroll{
+        overflow: scroll; overflow-y: hidden;  margin-left: 20%;
+        -webkit-overflow-scrolling:touch;
+    }
+}
+
+.tiny-tables-pinned {
+    -webkit-overflow-scrolling:touch;
+    position: absolute; left: 0; top: 0; background: #fff; width: 20%; overflow: hidden; overflow-x: scroll; border-right: 1px solid #ccc;
+    table{
+        border-right: none; border-left: none; width: 100%;
+        th, td{
+            white-space: nowrap;
+            display:none;
+            &:first-child{
+                display:block;
+            }
+        }
+        th{
+            text-align: left;
+        }
+        td{
+            &:last-child{
+                border-bottom: 0;
+            }
+        }
+    }
+}
+
+.tiny-tables-scroll{
+    th:first-child,
+    td:first-child{
+        display:none;
+    }
+}
