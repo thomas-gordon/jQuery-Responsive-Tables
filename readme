@@ -1,1 +1,16 @@
-eggs
+Original cred goes to zurb: http://www.zurb.com/article/982/a-new-take-on-responsive-tables
+
+A jQuery plugin for dealing with large tables in small spaces.
+
+Options and their defaults:
+
+shrinkAt: 900
+(the width of the window at which to convert the table into its alter ego)
+tableClass: 'tiny-tables',
+(the class added to the table that is targeted by the plugin)
+tableWrapperClass: 'tiny-tables-wrap' ,
+(the wrapper for the divs that are created)
+scrollingClass: 'tiny-tables-scroll',
+(the class for the div that contains the larger, x-scrollable table)
+pinnedClass: 'tiny-tables-pinned'
+(the class for the div that contains the first column of data)
