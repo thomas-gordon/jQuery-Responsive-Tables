@@ -2,488 +2,103 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Tools!</title>
+    <title>jQuery Responsive Tables</title>
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="/site_css/screen.css">
-    <link rel="stylesheet" type="text/css" href="tinyTables.css">
+    <link rel="stylesheet" type="text/css" href="responsiveTables.css">
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
-
 </head>
 
 <body>
-<header></header>
+
 <section id="content">
-<h1>Alaress In-house-made Tools</h1>
+    <h1>jQuery Responsive Tables</h1>
+    <table class="ruler">
 
-<section id="tabs">
-<nav>
-    <ul class="clearfix">
-        <li><a href="#tables">tinyTables</a></li>
-    </ul>
-</nav>
+        <thead>
+        <tr>
+            <th>Assignment Title</th>
+            <th>Type</th>
+            <th>Open Date</th>
+            <th>Due Date</th>
+            <th class="center">Submitted</th>
+            <th class="center">Returned</th>
+            <th class="center">View</th>
+            <th class="center">Modify</th>
+            <th class="center">Delete</th>
+        </tr>
+        </thead>
 
-<section class="tab" id="tables">
-<article>
-<h1>tinyTables</h1>
+        <tbody>
 
-</article>
-</section>
+        <tr>
+            <td><a href="/assess/results/168">SB 1184</a></td>
+            <td>Online Assessment</td>
+            <td>Tue, 15th May 12:00PM</td>
+            <td>Wed, 22nd May 1:00PM</td>
+        </tr>
+        <tr>
+            <td><a href="/submission/viewSubmission/52">SB 1169 Open Submission Test</a></td>
+            <td>Assessment Task</td>
+            <td><a href="/submission/createSubmission/modify/52">Tue, 5th Apr 12:00AM</a></td>
+            <td><a href="/submission/createSubmission/modify/52">Fri, 12th Apr 11:59PM</a></td>
+            <td class="center">3</td>
+        </tr>
+        <tr>
+            <td><a href="/submission/viewSubmission/52">SB 1169 Open Submission Test</a></td>
+            <td>Assessment Task</td>
+            <td><a href="/submission/createSubmission/modify/52">Tue, 5th Apr 12:00AM</a></td>
+            <td><a href="/submission/createSubmission/modify/52">Fri, 12th Apr 11:59PM</a></td>
+            <td class="center">3</td>
+        </tr>
+        <tr>
+            <td><a href="/submission/viewSubmission/52">SB 1169 Open Submission Test</a></td>
+            <td>Assessment Task</td>
+            <td><a href="/submission/createSubmission/modify/52">Tue, 5th Apr 12:00AM</a></td>
+            <td><a href="/submission/createSubmission/modify/52">Fri, 12th Apr 11:59PM</a></td>
+            <td class="center">3</td>
+        </tr>
+        <tr>
+            <td><a href="/submission/viewSubmission/52">SB 1169 Open Submission Test</a></td>
+            <td>Assessment Task</td>
+            <td><a href="/submission/createSubmission/modify/52">Tue, 5th Apr 12:00AM</a></td>
+            <td><a href="/submission/createSubmission/modify/52">Fri, 12th Apr 11:59PM</a></td>
+            <td class="center">3</td>
+        </tr>
+        <tr>
+            <td><a href="/submission/viewSubmission/52">SB 1169 Open Submission Test</a></td>
+            <td>Assessment Task</td>
+            <td><a href="/submission/createSubmission/modify/52">Tue, 5th Apr 12:00AM</a></td>
+            <td><a href="/submission/createSubmission/modify/52">Fri, 12th Apr 11:59PM</a></td>
+            <td class="center">3</td>
+        </tr>
+        <tr>
+            <td><a href="/submission/viewSubmission/52">SB 1169 Open Submission Test</a></td>
+            <td>Assessment Task</td>
+            <td><a href="/submission/createSubmission/modify/52">Tue, 5th Apr 12:00AM</a></td>
+            <td><a href="/submission/createSubmission/modify/52">Fri, 12th Apr 11:59PM</a></td>
+            <td class="center">3</td>
+        </tr>
+        <tr>
+            <td><a href="/submission/viewSubmission/52">SB 1169 Open Submission Test</a></td>
+            <td>Assessment Task</td>
+            <td><a href="/submission/createSubmission/modify/52">Tue, 5th Apr 12:00AM</a></td>
+            <td><a href="/submission/createSubmission/modify/52">Fri, 12th Apr 11:59PM</a></td>
+            <td class="center">3</td>
+        </tr>
+
+        </tbody>
+    </table>
 
 </section>
 <!-- end .content -->
-</section>
-<table class="ruler">
-
-<thead>
-<tr>
-    <th>Assignment Title</th>
-    <th>Type</th>
-    <th>Open Date</th>
-    <th>Due Date</th>
-    <th class="center">Submitted</th>
-    <th class="center">Returned</th>
-    <th class="center">View</th>
-    <th class="center">Modify</th>
-    <th class="center">Delete</th>
-</tr>
-</thead>
-<tbody>
-
-<tr class="dark">
-
-
-    <td><a href="/assess/results/168">SB 1184</a></td>
-    <td>Online Assessment</td>
-    <td>Tue, 15th May 12:00PM</td>
-    <td>Wed, 22nd May 1:00PM</td>
-    <td class="center">0</td>
-    <td class="center">0</td>
-    <td class="center"><a href="/assess/results/168">View</a></td>
-    <td class="center"><a href="/assess/modify/168">Modify</a></td>
-    <td class="center"><a href="/assess/delete/168" onclick="return(confirm(&quot;Remove SB 1184?&quot;));">Delete</a>
-    </td>
-</tr>
-<tr class="">
-
-    <td><a href="/submission/viewSubmission/52">SB 1169 Open Submission Test</a></td>
-    <td>Assessment Task</td>
-    <td><a href="/submission/createSubmission/modify/52">Tue, 5th Apr 12:00AM</a></td>
-    <td><a href="/submission/createSubmission/modify/52">Fri, 12th Apr 11:59PM</a></td>
-    <td class="center">3</td>
-    <td class="center">3</td>
-    <td class="center"><a href="/submission/viewSubmission/52">View</a></td>
-    <td class="center"><a href="/submission/createSubmission/modify/52">Modify</a></td>
-    <td class="center"><a href="/submission/submissionForm.php?deleteBox=52"
-                          onclick="return(confirm(&quot;Remove SB 1169 Open Submission Test?&quot;));">Delete</a></td>
-
-</tr>
-<tr class="dark">
-
-
-    <td><a href="/assess/results/113">SB-527, SB-834</a></td>
-    <td>Online Assessment</td>
-    <td>Tue, 8th Mar 8:00PM</td>
-    <td>Fri, 15th Mar 9:00PM</td>
-    <td class="center">1</td>
-    <td class="center">1</td>
-    <td class="center"><a href="/assess/results/113">View</a></td>
-    <td class="center"><a href="/assess/modify/113">Modify</a></td>
-    <td class="center"><a href="/assess/delete/113" onclick="return(confirm(&quot;Remove SB-527, SB-834?&quot;));">Delete</a>
-    </td>
-</tr>
-<tr class="">
-
-
-    <td><a href="/assess/results/137">SB-527, SB-834</a></td>
-    <td>Online Assessment</td>
-    <td>Tue, 8th Mar 8:00PM</td>
-    <td>Fri, 15th Mar 9:00PM</td>
-    <td class="center">1</td>
-    <td class="center">1</td>
-    <td class="center"><a href="/assess/results/137">View</a></td>
-    <td class="center"><a href="/assess/modify/137">Modify</a></td>
-    <td class="center"><a href="/assess/delete/137" onclick="return(confirm(&quot;Remove SB-527, SB-834?&quot;));">Delete</a>
-    </td>
-</tr>
-<tr class="dark">
-
-
-    <td><a href="/assess/results/138">SB-527, SB-834</a></td>
-    <td>Online Assessment</td>
-    <td>Tue, 8th Mar 8:00PM</td>
-    <td>Fri, 15th Mar 9:00PM</td>
-    <td class="center">1</td>
-    <td class="center">0</td>
-    <td class="center"><a href="/assess/results/138">View</a></td>
-    <td class="center"><a href="/assess/modify/138">Modify</a></td>
-    <td class="center"><a href="/assess/delete/138" onclick="return(confirm(&quot;Remove SB-527, SB-834?&quot;));">Delete</a>
-    </td>
-</tr>
-<tr class="">
-
-
-    <td><a href="/assess/results/139">SB-527 &amp;amp; SB-834</a></td>
-    <td>Online Assessment</td>
-    <td>Tue, 8th Mar 8:00PM</td>
-    <td>Fri, 15th Mar 9:00PM</td>
-    <td class="center">0</td>
-    <td class="center">0</td>
-    <td class="center"><a href="/assess/results/139">View</a></td>
-    <td class="center"><a href="/assess/modify/139">Modify</a></td>
-    <td class="center"><a href="/assess/delete/139"
-                          onclick="return(confirm(&quot;Remove SB-527 &amp;amp; SB-834?&quot;));">Delete</a></td>
-</tr>
-<tr class="dark">
-
-
-    <td><a href="/assess/results/156">SB-527 &amp;amp; SB-834</a></td>
-    <td>Online Assessment</td>
-    <td>Tue, 8th Mar 8:00PM</td>
-    <td>Fri, 15th Mar 9:00PM</td>
-    <td class="center">0</td>
-    <td class="center">0</td>
-    <td class="center"><a href="/assess/results/156">View</a></td>
-    <td class="center"><a href="/assess/modify/156">Modify</a></td>
-    <td class="center"><a href="/assess/delete/156"
-                          onclick="return(confirm(&quot;Remove SB-527 &amp;amp; SB-834?&quot;));">Delete</a></td>
-</tr>
-<tr class="">
-
-
-    <td><a href="/assess/results/159">SB-527 &amp;amp; SB-834</a></td>
-    <td>Online Assessment</td>
-    <td>Tue, 8th Mar 8:00PM</td>
-    <td>Fri, 15th Mar 9:00PM</td>
-    <td class="center">0</td>
-    <td class="center">0</td>
-    <td class="center"><a href="/assess/results/159">View</a></td>
-    <td class="center"><a href="/assess/modify/159">Modify</a></td>
-    <td class="center"><a href="/assess/delete/159"
-                          onclick="return(confirm(&quot;Remove SB-527 &amp;amp; SB-834?&quot;));">Delete</a></td>
-</tr>
-<tr class="dark">
-
-
-    <td><a href="/assess/results/172">TEST</a></td>
-    <td>Online Assessment</td>
-    <td>Tue, 22nd May 12:00PM</td>
-    <td>Tue, 29th May 1:00PM</td>
-    <td class="center">0</td>
-    <td class="center">0</td>
-    <td class="center"><a href="/assess/results/172">View</a></td>
-    <td class="center"><a href="/assess/modify/172">Modify</a></td>
-    <td class="center"><a href="/assess/delete/172" onclick="return(confirm(&quot;Remove TEST?&quot;));">Delete</a></td>
-</tr>
-<tr class="">
-
-
-    <td><a href="/assess/results/169">asd</a></td>
-    <td>Online Assessment</td>
-    <td>Tue, 15th May 4:00PM</td>
-    <td>Tue, 22nd May 5:00PM</td>
-    <td class="center">0</td>
-    <td class="center">0</td>
-    <td class="center"><a href="/assess/results/169">View</a></td>
-    <td class="center"><a href="/assess/modify/169">Modify</a></td>
-    <td class="center"><a href="/assess/delete/169" onclick="return(confirm(&quot;Remove asd?&quot;));">Delete</a></td>
-</tr>
-<tr class="dark">
-
-    <td><a href="/submission/viewSubmission/68">Test</a></td>
-    <td>Assessment Task</td>
-    <td><a href="/submission/createSubmission/modify/68"></a></td>
-    <td><a href="/submission/createSubmission/modify/68">Fri, 18th May 10:00PM</a></td>
-    <td class="center">0</td>
-    <td class="center">0</td>
-    <td class="center"><a href="/submission/viewSubmission/68">View</a></td>
-    <td class="center"><a href="/submission/createSubmission/modify/68">Modify</a></td>
-    <td class="center"><a href="/submission/submissionForm.php?deleteBox=68"
-                          onclick="return(confirm(&quot;Remove Test?&quot;));">Delete</a></td>
-
-</tr>
-<tr class="">
-
-
-    <td><a href="/assess/results/160">Some text with bad &amp;lt; chars &amp;amp; and !@#$^*(&amp;qu</a></td>
-    <td>Online Assessment</td>
-    <td>Wed, 2nd May 7:00PM</td>
-    <td>Wed, 9th May 8:00PM</td>
-    <td class="center">0</td>
-    <td class="center">0</td>
-    <td class="center"><a href="/assess/results/160">View</a></td>
-    <td class="center"><a href="/assess/modify/160">Modify</a></td>
-    <td class="center"><a href="/assess/delete/160"
-                          onclick="return(confirm(&quot;Remove Some text with bad &amp;lt; chars &amp;amp; and !@#$^*(&amp;qu?&quot;));">Delete</a>
-    </td>
-</tr>
-<tr class="dark">
-
-
-    <td><a href="/assess/results/162">Test import</a></td>
-    <td>Online Assessment</td>
-    <td>Wed, 2nd May 7:00PM</td>
-    <td>Wed, 9th May 8:00PM</td>
-    <td class="center">0</td>
-    <td class="center">0</td>
-    <td class="center"><a href="/assess/results/162">View</a></td>
-    <td class="center"><a href="/assess/modify/162">Modify</a></td>
-    <td class="center"><a href="/assess/delete/162"
-                          onclick="return(confirm(&quot;Remove Test import?&quot;));">Delete</a></td>
-</tr>
-<tr class="">
-
-
-    <td><a href="/assess/results/163">Some text with bad &amp;lt; chars &amp;amp; and !@#$^*(&amp;am</a></td>
-    <td>Online Assessment</td>
-    <td>Wed, 2nd May 7:00PM</td>
-    <td>Wed, 9th May 8:00PM</td>
-    <td class="center">0</td>
-    <td class="center">0</td>
-    <td class="center"><a href="/assess/results/163">View</a></td>
-    <td class="center"><a href="/assess/modify/163">Modify</a></td>
-    <td class="center"><a href="/assess/delete/163"
-                          onclick="return(confirm(&quot;Remove Some text with bad &amp;lt; chars &amp;amp; and !@#$^*(&amp;am?&quot;));">Delete</a>
-    </td>
-</tr>
-<tr class="dark">
-
-
-    <td><a href="/assess/results/166">Some text with bad &amp;lt; chars &amp;amp; and !@#$^*(&amp;am</a></td>
-    <td>Online Assessment</td>
-    <td>Wed, 2nd May 7:00PM</td>
-    <td>Wed, 9th May 8:00PM</td>
-    <td class="center">0</td>
-    <td class="center">0</td>
-    <td class="center"><a href="/assess/results/166">View</a></td>
-    <td class="center"><a href="/assess/modify/166">Modify</a></td>
-    <td class="center"><a href="/assess/delete/166"
-                          onclick="return(confirm(&quot;Remove Some text with bad &amp;lt; chars &amp;amp; and !@#$^*(&amp;am?&quot;));">Delete</a>
-    </td>
-</tr>
-<tr class="">
-
-    <td><a href="/submission/viewSubmission/44">SB 1169 Hadoken 2</a></td>
-    <td>Assessment Task</td>
-    <td><a href="/submission/createSubmission/modify/44">Tue, 15th May 10:32AM</a></td>
-    <td><a href="/submission/createSubmission/modify/44">Tue, 8th May 11:59PM</a></td>
-    <td class="center">1</td>
-    <td class="center">1</td>
-    <td class="center"><a href="/submission/viewSubmission/44">View</a></td>
-    <td class="center"><a href="/submission/createSubmission/modify/44">Modify</a></td>
-    <td class="center"><a href="/submission/submissionForm.php?deleteBox=44"
-                          onclick="return(confirm(&quot;Remove SB 1169 Hadoken 2?&quot;));">Delete</a></td>
-
-</tr>
-<tr class="dark">
-
-    <td><a href="/submission/viewSubmission/45">SB 1169 Hadoken 1</a></td>
-    <td>Assessment Task</td>
-    <td><a href="/submission/createSubmission/modify/45">Wed, 4th Apr 9:48AM</a></td>
-    <td><a href="/submission/createSubmission/modify/45">Tue, 8th May 11:59PM</a></td>
-    <td class="center">5</td>
-    <td class="center">5</td>
-    <td class="center"><a href="/submission/viewSubmission/45">View</a></td>
-    <td class="center"><a href="/submission/createSubmission/modify/45">Modify</a></td>
-    <td class="center"><a href="/submission/submissionForm.php?deleteBox=45"
-                          onclick="return(confirm(&quot;Remove SB 1169 Hadoken 1?&quot;));">Delete</a></td>
-
-</tr>
-<tr class="">
-
-    <td><a href="/submission/viewSubmission/62">SB 1169 Closed Submission Test</a></td>
-    <td>Assessment Task</td>
-    <td><a href="/submission/createSubmission/modify/62">Thu, 3rd May 5:16PM</a></td>
-    <td><a href="/submission/createSubmission/modify/62">Mon, 7th May 6:00PM</a></td>
-    <td class="center">0</td>
-    <td class="center">0</td>
-    <td class="center"><a href="/submission/viewSubmission/62">View</a></td>
-    <td class="center"><a href="/submission/createSubmission/modify/62">Modify</a></td>
-    <td class="center"><a href="/submission/submissionForm.php?deleteBox=62"
-                          onclick="return(confirm(&quot;Remove SB 1169 Closed Submission Test?&quot;));">Delete</a></td>
-
-</tr>
-<tr class="dark">
-
-
-    <td><a href="/assess/results/114">SB-835 - Online assessment, search form submits up</a></td>
-    <td>Online Assessment</td>
-    <td>Sun, 18th Mar 12:00PM</td>
-    <td>Fri, 20th Apr 1:00PM</td>
-    <td class="center">0</td>
-    <td class="center">0</td>
-    <td class="center"><a href="/assess/results/114">View</a></td>
-    <td class="center"><a href="/assess/modify/114">Modify</a></td>
-    <td class="center"><a href="/assess/delete/114"
-                          onclick="return(confirm(&quot;Remove SB-835 - Online assessment, search form submits up?&quot;));">Delete</a>
-    </td>
-</tr>
-<tr class="">
-
-
-    <td><a href="/assess/results/128">x1</a></td>
-    <td>Online Assessment</td>
-    <td>Tue, 10th Apr 11:00AM</td>
-    <td>Tue, 17th Apr 12:00PM</td>
-    <td class="center">0</td>
-    <td class="center">0</td>
-    <td class="center"><a href="/assess/results/128">View</a></td>
-    <td class="center"><a href="/assess/modify/128">Modify</a></td>
-    <td class="center"><a href="/assess/delete/128" onclick="return(confirm(&quot;Remove x1?&quot;));">Delete</a></td>
-</tr>
-<tr class="dark">
-
-
-    <td><a href="/assess/results/129">x2</a></td>
-    <td>Online Assessment</td>
-    <td>Tue, 10th Apr 11:00AM</td>
-    <td>Tue, 17th Apr 12:00PM</td>
-    <td class="center">0</td>
-    <td class="center">0</td>
-    <td class="center"><a href="/assess/results/129">View</a></td>
-    <td class="center"><a href="/assess/modify/129">Modify</a></td>
-    <td class="center"><a href="/assess/delete/129" onclick="return(confirm(&quot;Remove x2?&quot;));">Delete</a></td>
-</tr>
-<tr class="">
-
-    <td><a href="/submission/viewSubmission/59">SB 1169 Late Submission Test</a></td>
-    <td>Assignment</td>
-    <td><a href="/submission/createSubmission/modify/59">Wed, 11th Apr 2:06PM</a></td>
-    <td><a href="/submission/createSubmission/modify/59">Wed, 11th Apr 11:59PM</a></td>
-    <td class="center">0</td>
-    <td class="center">0</td>
-    <td class="center"><a href="/submission/viewSubmission/59">View</a></td>
-    <td class="center"><a href="/submission/createSubmission/modify/59">Modify</a></td>
-    <td class="center"><a href="/submission/submissionForm.php?deleteBox=59"
-                          onclick="return(confirm(&quot;Remove SB 1169 Late Submission Test?&quot;));">Delete</a></td>
-
-</tr>
-<tr class="dark">
-
-
-    <td><a href="/assess/results/136">asdasd</a></td>
-    <td>Online Assessment</td>
-    <td>Wed, 28th Mar 1:00PM</td>
-    <td>Wed, 4th Apr 2:00PM</td>
-    <td class="center">0</td>
-    <td class="center">0</td>
-    <td class="center"><a href="/assess/results/136">View</a></td>
-    <td class="center"><a href="/assess/modify/136">Modify</a></td>
-    <td class="center"><a href="/assess/delete/136" onclick="return(confirm(&quot;Remove asdasd?&quot;));">Delete</a>
-    </td>
-</tr>
-<tr class="">
-
-    <td><a href="/submission/viewSubmission/38">46gh [sb-1029]</a></td>
-    <td>Assessment Task</td>
-    <td><a href="/submission/createSubmission/modify/38"></a></td>
-    <td><a href="/submission/createSubmission/modify/38">Fri, 30th Mar 12:00PM</a></td>
-    <td class="center">0</td>
-    <td class="center">0</td>
-    <td class="center"><a href="/submission/viewSubmission/38">View</a></td>
-    <td class="center"><a href="/submission/createSubmission/modify/38">Modify</a></td>
-    <td class="center"><a href="/submission/submissionForm.php?deleteBox=38"
-                          onclick="return(confirm(&quot;Remove 46gh [sb-1029]?&quot;));">Delete</a></td>
-
-</tr>
-<tr class="dark">
-
-
-    <td><a href="/assess/results/115">o68989o</a></td>
-    <td>Online Assessment</td>
-    <td>Thu, 22nd Mar 1:00PM</td>
-    <td>Thu, 29th Mar 2:00PM</td>
-    <td class="center">0</td>
-    <td class="center">0</td>
-    <td class="center"><a href="/assess/results/115">View</a></td>
-    <td class="center"><a href="/assess/modify/115">Modify</a></td>
-    <td class="center"><a href="/assess/delete/115" onclick="return(confirm(&quot;Remove o68989o?&quot;));">Delete</a>
-    </td>
-</tr>
-<tr class="">
-
-    <td><a href="/submission/viewSubmission/40">the quick brown fox jumps over the lazy dog</a></td>
-    <td>Assessment Task</td>
-    <td><a href="/submission/createSubmission/modify/40"></a></td>
-    <td><a href="/submission/createSubmission/modify/40">Tue, 27th Mar 1:00PM</a></td>
-    <td class="center">0</td>
-    <td class="center">0</td>
-    <td class="center"><a href="/submission/viewSubmission/40">View</a></td>
-    <td class="center"><a href="/submission/createSubmission/modify/40">Modify</a></td>
-    <td class="center"><a href="/submission/submissionForm.php?deleteBox=40"
-                          onclick="return(confirm(&quot;Remove the quick brown fox jumps over the lazy dog?&quot;));">Delete</a>
-    </td>
-
-</tr>
-<tr class="dark">
-
-    <td><a href="/submission/viewSubmission/39">1024 BY 768</a></td>
-    <td>Assessment Task</td>
-    <td><a href="/submission/createSubmission/modify/39"></a></td>
-    <td><a href="/submission/createSubmission/modify/39">Mon, 26th Mar 6:00PM</a></td>
-    <td class="center">0</td>
-    <td class="center">0</td>
-    <td class="center"><a href="/submission/viewSubmission/39">View</a></td>
-    <td class="center"><a href="/submission/createSubmission/modify/39">Modify</a></td>
-    <td class="center"><a href="/submission/submissionForm.php?deleteBox=39"
-                          onclick="return(confirm(&quot;Remove 1024 BY 768?&quot;));">Delete</a></td>
-
-</tr>
-<tr class="">
-
-    <td><a href="/submission/viewSubmission/37">SB-1029 open date bug</a></td>
-    <td>Assessment Task</td>
-    <td><a href="/submission/createSubmission/modify/37"></a></td>
-    <td><a href="/submission/createSubmission/modify/37">Sat, 24th Mar 12:00PM</a></td>
-    <td class="center">0</td>
-    <td class="center">0</td>
-    <td class="center"><a href="/submission/viewSubmission/37">View</a></td>
-    <td class="center"><a href="/submission/createSubmission/modify/37">Modify</a></td>
-    <td class="center"><a href="/submission/submissionForm.php?deleteBox=37"
-                          onclick="return(confirm(&quot;Remove SB-1029 open date bug?&quot;));">Delete</a></td>
-
-</tr>
-<tr class="dark">
-
-    <td><a href="/submission/viewSubmission/35">SB527 test box</a></td>
-    <td>Assessment Task</td>
-    <td><a href="/submission/createSubmission/modify/35">Fri, 3rd Dec 12:00AM</a></td>
-    <td><a href="/submission/createSubmission/modify/35">Thu, 8th Mar 11:00PM</a></td>
-    <td class="center">1</td>
-    <td class="center">1</td>
-    <td class="center"><a href="/submission/viewSubmission/35">View</a></td>
-    <td class="center"><a href="/submission/createSubmission/modify/35">Modify</a></td>
-    <td class="center"><a href="/submission/submissionForm.php?deleteBox=35"
-                          onclick="return(confirm(&quot;Remove SB527 test box?&quot;));">Delete</a></td>
-
-</tr>
-<tr class="">
-
-    <td><a href="/submission/viewSubmission/33">FooHomework</a></td>
-    <td>Homework</td>
-    <td><a href="/submission/createSubmission/modify/33">Tue, 28th Feb 1:00PM</a></td>
-    <td><a href="/submission/createSubmission/modify/33">Wed, 29th Feb 2:00PM</a></td>
-    <td class="center">0</td>
-    <td class="center">0</td>
-    <td class="center"><a href="/submission/viewSubmission/33">View</a></td>
-    <td class="center"><a href="/submission/createSubmission/modify/33">Modify</a></td>
-    <td class="center"><a href="/submission/submissionForm.php?deleteBox=33"
-                          onclick="return(confirm(&quot;Remove FooHomework?&quot;));">Delete</a></td>
-
-</tr>
-</tbody>
-</table>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
-<script type="text/javascript" src="/site_js/jquery-ui.js"></script>
-<script type="text/javascript" src="jquery.tinyTables.js"></script>
-<script type="text/javascript" src="/site_js/script.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.responsiveTables.js"></script>
 <script>
     $(function () {
         $('table').tinyTables();
     })
 </script>
-
 </body>
 </html>
